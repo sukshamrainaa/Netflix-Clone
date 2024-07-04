@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/backgroundimage.jpg) ;
+    height:700px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.main .box{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+nav{
+    max-width: 94vw;
+    display: flex;
+    margin: auto;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+nav span img{
+    width: 160px;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+
+}
+.btn{
+    position: relative;
+    z-index: 1;
+    gap: 10px
+}
+.bgimgtext{
+    height: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 25px;
+    padding: 30px;
+}
+.bgimgtext h1,p{
+    font-family: sans-serif;
+    text-align: center;
+}
+.bgimgtext h1{
+    font-weight: 900;
+    font-size: 48px;
+
+}
+.bgimgtext p:nth-of-type(1){
+    font-weight: 400;
+    font-size: 24px;
+}
+.bgimgtext p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 20px;
+}
+.line{
+    height: 8px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn-lang{
+    padding: 3px 30px ;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background: rgba(0,0,0, 0.43);
+    border:1px solid #898585;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+.btn-lang svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.btn-sign{
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+    background-color: #e50913;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-get{
+    padding: 12px 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    background-color: #e50913;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-get img{
+    vertical-align: middle;
+}
+.email input {
+    padding: 14px 184px 8px 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background: rgba(0,0,0, 0.43);
+    border: 1px solid #5c5959;
+    border-radius: 5px;
+
+}
+.first {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 95vw;
+    margin: auto;
+}
+
+
+
+
+h2{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+}
+.first p{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+.template{
+    position: relative;
+}
+.template img{
+    width: 540px;
+    position: relative;
+    z-index: 1;
+}
+.template video{
+    position: absolute;
+    top: 85px;
+    right: 10px;
+    
+}
+
+.second h2,p{
+    margin-right: 40px;
+}
+.third video{
+    width: 350px;
+    position: absolute;
+    top: 39px;
+    right: 100px;
+
+
+}
+
+.fourth h2,p{
+    margin-right: 40px;
+
+}
+
+.question h3
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+
+}
+.faqbox{
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f2e2e;
+    padding: 24px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1s ease-out;
+    
+}
+.faqbox span{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    
+}
+.faqbox:hover
+{
+    background-color: #494949;
+}
+.membership{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.email2{
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+}
+footer{
+    color: white;
+    max-width: 93vw;
+    margin: auto;
+    padding-top: 60px;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 93vw;
+    margin: auto;
+    padding-top: 20px;
+}
+.footeritems{
+    
+    display: flex;
+    flex-direction: column;
+}
+.tel{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.tel a{
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footeritems a{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 15px;
+}
+.end-btn{
+    padding-top: 20px;
+}
+
+.end{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
